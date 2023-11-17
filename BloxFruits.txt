@@ -2549,7 +2549,7 @@ end)
 MainTab:AddParagraph("Farm Chest","")
 
 MainTab:AddToggle({
-	Name = "Auto Farm Chest ( Teleport )",
+	Name = "Auto Farm Chest (Teleport)",
 	Default = false,
 	Callback = function(Value)
 		AutoFarmChest = Value
@@ -2580,7 +2580,7 @@ spawn(function()
 end)
 
 MainTab:AddToggle({
-	Name = "Auto Farm Chest ( Instant Teleport )",
+	Name = "Auto Farm Chest (Instant Teleport)",
 	Default = false,
 	Callback = function(Value)
 		_G.ChestBypass = Value
@@ -2642,11 +2642,11 @@ if World3 then
                     if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                         FM:Set("??: Full Moon 100%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" then
-                        FM:Set("??  : Full Moon 75%")
+                        FM:Set("??: Full Moon 75%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
-                        FM:Set("??  : Full Moon 50%")
+                        FM:Set("??: Full Moon 50%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
-                        FM:Set("?? : Full Moon 25%")
+                        FM:Set("??: Full Moon 25%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                         FM:Set("??: Full Moon 15%")
                     else
@@ -2851,7 +2851,7 @@ ItemTab:AddToggle({
         
 
 ItemTab:AddToggle({
-	Name = "Auto Tween Gear",
+	Name = "Auto Teleport Gear",
 	Default = false,
 	Callback = function(Value)
 		_G.TweenMGear = Value
@@ -2991,7 +2991,7 @@ ItemTab:AddButton({
 })
 
 ItemTab:AddToggle({
-	Name = " Auto Cake Prince",
+	Name = "Auto Cake Prince",
 	Default = false,
 	Flag = "Kill Cake Prince",
 	Save = true,
@@ -4023,7 +4023,7 @@ spawn(function()
     end)
 
 ItemTab:AddToggle({
-	Name = "Auto Farm Fish Tail ( Zou )",
+	Name = "Auto Farm Fish Tail (Sea 3)",
 	Default = false,
 	Flag = "Fish Tail",
 	Save = true,
@@ -5449,7 +5449,7 @@ ItemTab:AddToggle({
     end)
 
 ItemTab:AddToggle({
-	Name = "Auto Observation Haki V2 ( Citizen Quest )",
+	Name = "Auto Observation Haki V2 (Citizen Quest)",
 	Default = false,
 	Callback = function(Value)
 		_G.AutoObservationHakiV2 = Value
@@ -5618,7 +5618,7 @@ spawn(function()
 	end)
 if World3 then
 ItemTab:AddToggle({
-	Name = "Auto Find Musketeer Hat",
+	Name = "Auto Musketeer Hat",
 	Default = false,
 	Callback = function(Value)
 		_G.AutoMusketeerHat = Value
@@ -6585,7 +6585,7 @@ if World3 then
 MainTab:AddDropdown({
 	Name = "Select Monster",
 	Default = "1",
-	Options = {"Pirate Millionaire [Lv. 1500]","Dragon Crew Warrior [Lv. 1575]","Dragon Crew Archer [Lv. 1600]","Female Islander [Lv. 1625]","Giant Islander [Lv. 1650]","Marine Commodore [Lv. 1700]","Marine Rear Admiral [Lv. 1725]","Fishman Raider [Lv. 1775]","Fishman Captain [Lv. 1800]","Forest Pirate [Lv. 1825]","Mythological Pirate [Lv. 1850]","Jungle Pirate [Lv. 1900]","Musketeer Pirate [Lv. 1925]","Reborn Skeleton [Lv. 1975]","Living Zombie [Lv. 2000]","Demonic Soul [Lv. 2025]","Posessed Mummy [Lv. 2050]", "Peanut Scout [Lv. 2075]", "Peanut President [Lv. 2100]", "Ice Cream Chef [Lv. 2125]", "Ice Cream Commander [Lv. 2150]", "Cookie Crafter [Lv. 2200]", "Cake Guard [Lv. 2225]", "Baking Staff [Lv. 2250]", "Head Baker [Lv. 2275]", "Cocoa Warrior [Lv. 2300]", "Chocolate Bar Battler [Lv. 2325]", "Sweet Thief [Lv. 2350]", "Candy Rebel [Lv. 2375]", "Candy Pirate [Lv. 2400]", "Snow Demon [Lv. 2425]"},
+	Options = {"Pirate Millionaire [Lv. 1500]","Dragon Crew Warrior [Lv. 1575]","Dragon Crew Archer [Lv. 1600]","Female Islander [Lv. 1625]","Giant Islander [Lv. 1650]","Marine Commodore [Lv. 1700]","Marine Rear Admiral [Lv. 1725]","Fishman Raider [Lv. 1775]","Fishman Captain [Lv. 1800]","Forest Pirate [Lv. 1825]","Mythological Pirate [Lv. 1850]","Jungle Pirate [Lv. 1900]","Musketeer Pirate [Lv. 1925]","Reborn Skeleton [Lv. 1975]","Living Zombie [Lv. 2000]","Demonic Soul [Lv. 2025]","Posessed Mummy [Lv. 2050]", "Peanut Scout [Lv. 2075]", "Peanut President [Lv. 2100]", "Ice Cream Chef [Lv. 2125]", "Ice Cream Commander [Lv. 2150]", "Cookie Crafter [Lv. 2200]", "Cake Guard [Lv. 2225]", "Baking Staff [Lv. 2250]", "Head Baker [Lv. 2275]", "Cocoa Warrior [Lv. 2300]", "Chocolate Bar Battler [Lv. 2325]", "Sweet Thief [Lv. 2350]", "Candy Rebel [Lv. 2375]", "Candy Pirate [Lv. 2400]", "Snow Demon [Lv. 2425", "Isle Outlaw [Lv. 2450]", "Island Boy [Lv. 2475]", "Sun-kissed Warrior [Lv. 2500]", "Isle Champion [Lv. 2525]"},
 	Callback = function(Value)
 		SelectMonster = Value
 	end
@@ -6997,7 +6997,7 @@ MainTab:AddParagraph("Auto Travel Sea","")
 end
 if World1 then
 MainTab:AddToggle({
-	Name = "Quest Dressrosa (Sea 2)",
+	Name = "Auto Quest Sea 2)",
 	Default = false,
 	Callback = function(Value)
 		_G.AutoSecondSea = Value
@@ -7064,7 +7064,7 @@ MainTab:AddToggle({
 end
 if World2 then
 MainTab:AddToggle({
-	Name = "Quest Zou (Sea 3)",
+	Name = "Auto Quest Sea 3)",
 	Default = false,
 	Callback = function(Value)
 		_G.AutoThirdSea = Value
@@ -8074,7 +8074,8 @@ if World3 then
                 "Peanut Island",
                 "Cake Island",
                 "Cocoa Island",
-                "Candy Island"
+                "Candy Island",
+                "Tiki Island"
             },
             Callback = function(Value)
                 _G.SelectIsland = Value
@@ -8266,7 +8267,10 @@ if World3 then
                 "Peanut Island",
                 "Cake Island",
                 "Sea to Treats",
-                "Cake Island"
+                "Cake Island",
+                "Cocoa Island",
+                "Candy Island",
+                "Tiki Island"
             },
             Callback = function(Value)
                 _G.SelectWarp = Value
@@ -8496,6 +8500,16 @@ TeleTab:AddButton({
                 elseif _G.SelectWarp == "Cake Island" then
 					wait(.1)
                     game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1141.0223388671875, 47.25519561767578, -14204.609375)
+                    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+                elseif _G.SelectWarp == "Cocoa Island" then
+					wait(.1)
+                    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.94276428222656, 73.55451202392578, -12319.46484375)
+                    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+                elseif _G.SelectWarp == "Candy Island" then
+					wait(.1)
+                    game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1014.4241943359375, 149.11068725585938, -14555.962890625)
                     game.Players.LocalPlayer.Character.Humanoid.Health = 0
 					game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
                  end
@@ -8830,7 +8844,7 @@ task.spawn(function()
 	end
     RaidTab:AddParagraph("Raid","Raid Function")
 RaidTab:AddDropdown({
-	Name = "Select Chips",
+	Name = "Select Chip",
 	Default = "",
 	Options = Raidslist,
 	Callback = function(Value)
@@ -8839,7 +8853,7 @@ RaidTab:AddDropdown({
 })
 
 RaidTab:AddButton({
-	Name = "Buy Chip Select 1 Time",
+	Name = "Buy Chip",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("RaidsNpc","Select",_G.SelectChip)
   	end
@@ -8979,7 +8993,7 @@ RaidTab:AddToggle({
     end)
     RaidTab:AddParagraph("Fruits","Fruits Function")
 RaidTab:AddButton({
-	Name = "Random Fruits 1 Times",
+	Name = "Random Fruits",
 	Callback = function()
       		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Cousin","Buy")
   	end
@@ -10078,7 +10092,8 @@ SHTab:AddDropdown({
 		"Electric Claw",
 		"SharkMan Karate",
 		"Dragon Talon",
-		"Godhuman"
+		"Godhuman",
+                "Sanguine Art"
      },
 	Callback = function(Value)
 		_G.BuyMelee = Value
@@ -10086,7 +10101,7 @@ SHTab:AddDropdown({
 })
 
 SHTab:AddButton({
-	Name = "Auto Buy Selected Melee",
+	Name = "Buy Melee",
 	Callback = function()
       	if _G.BuyMelee == "Dark Step" then
           game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyBlackLeg")
@@ -10110,6 +10125,8 @@ SHTab:AddButton({
           game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDragonTalon")
           elseif _G.BuyMelee == "Godhuman" then
           game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman")
+          elseif _G.BuyMelee == "Sanguine Art" then
+          game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySanguineArt")
           end
       end
 })
@@ -10120,7 +10137,7 @@ SHTab:AddDropdown({
 		"Geppo",
 		"Buso",
 		"Soru",
-		"Ken ( Observation )"
+		"Ken (Observation)"
      },
 	Callback = function(Value)
 		_G.BuyHaki = Value
@@ -10135,7 +10152,7 @@ SHTab:AddButton({
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso")
         elseif _G.Buyhaki == "Soru" then
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Soru")
-        elseif _G.BuyHaki == "Ken ( Observation )" then
+        elseif _G.BuyHaki == "Ken (Observation)" then
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("KenTalk","Buy")
         end
     end
@@ -10160,7 +10177,7 @@ SHTab:AddButton({
 PlayerSex:AddParagraph("Stats","Up Stats")
 
 PlayerSex:AddToggle({
-	Name = "Auto Up Melee",
+	Name = "Melee",
 	Default = false,
 	Callback = function(Value)
 		melee = Value
@@ -10168,7 +10185,7 @@ PlayerSex:AddToggle({
 })
 
 PlayerSex:AddToggle({
-	Name = "Auto Up Defense",
+	Name = "Defense",
 	Default = false,
 	Callback = function(Value)
 		defense = Value
@@ -10176,7 +10193,7 @@ PlayerSex:AddToggle({
 })
 
 PlayerSex:AddToggle({
-	Name = "Auto Up Sword",
+	Name = "Sword",
 	Default = false,
 	Callback = function(Value)
 		sword = Value
@@ -10184,7 +10201,7 @@ PlayerSex:AddToggle({
 })
 
 PlayerSex:AddToggle({
-	Name = "Auto Up Gun",
+	Name = "Gun",
 	Default = false,
 	Callback = function(Value)
 		gun = Value
@@ -10192,7 +10209,7 @@ PlayerSex:AddToggle({
 })
 
 PlayerSex:AddToggle({
-	Name = "Auto Up Fruits",
+	Name = "Fruits",
 	Default = false,
 	Callback = function(Value)
 		demonfruit = Value
@@ -10314,7 +10331,7 @@ MiscTab:AddToggle({
 	    end
     end)
     MiscTab:AddToggle({
-        Name = "Walk On Water ( Change Size )",
+        Name = "Walk On Water (Change Size)",
         Default = true,
         Callback = function(Value)
             _G.WalkWater = Value
@@ -10449,7 +10466,7 @@ MiscTab:AddButton({
         })
 
 MiscTab:AddTextbox({
-	Name = "Paste Job ID",
+	Name = "Job ID",
 	Default = "Paste",
 	TextDisappear = true,
 	Callback = function(Value)
@@ -10458,7 +10475,7 @@ MiscTab:AddTextbox({
 })
 
 MiscTab:AddButton({
-	Name = "Join Server ID",
+	Name = "Join Job ID",
 	Callback = function()
       		game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
   	end
@@ -10556,17 +10573,3 @@ MiscTab:AddToggle({
             VisionRadius.Value = VS
         end
     end
-    -- White If Close Roblox
-    local InputService = game:GetService("UserInputService")
-    if getgenv().C["White If Open Other Tab"] then
-InputService.WindowFocused:Connect(
-    function()
-        game:GetService("RunService"):Set3dRenderingEnabled(true)
-    end
-)
-InputService.WindowFocusReleased:Connect(
-    function()
-        game:GetService("RunService"):Set3dRenderingEnabled(false)
-    end
-)
-end
